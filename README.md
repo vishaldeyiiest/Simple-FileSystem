@@ -24,4 +24,4 @@ This is an implementation of simple file system which supports following command
    18.  myfs>exit /* terminate the process */
 
 #NOTE:
-	After modifying the file system do not terminate the process using [ctrl+c]. Always use "exit" to close the programme.If [ctrl+c] is used then those changes will not be written into the super block. So again when the programme will be run then previous changes will not be retained and the file system will be corrupted.
+	After modifying the file system do not terminate the process using [ctrl+c]. Always use "exit" to close the programme.
